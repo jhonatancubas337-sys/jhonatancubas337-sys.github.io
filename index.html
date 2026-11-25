@@ -71,7 +71,7 @@ h2{font-size:clamp(26px,4vw,38px);line-height:1.15;margin:0 0 10px;letter-spacin
 .pasos{display:grid;gap:10px;max-width:720px;counter-reset:n}
 .paso{background:#fff;border:1px solid var(--borde);border-radius:16px;padding:16px 18px 16px 62px;position:relative;counter-increment:n}
 .paso:before{content:counter(n);position:absolute;left:16px;top:14px;width:32px;height:32px;border-radius:50%;background:var(--pri);color:#fff;font-weight:800;display:flex;align-items:center;justify-content:center}
-.paso b{display:block}.paso span{color:var(--mut);font-size:15px}
+.paso>b{display:block}.paso span{color:var(--mut);font-size:15px}
 details{background:#fff;border:1px solid var(--borde);border-radius:16px;padding:16px 18px;margin-bottom:10px;max-width:720px}
 summary{font-weight:700;cursor:pointer;list-style:none}summary::-webkit-details-marker{display:none}
 summary:after{content:"+";float:right;color:var(--pri);font-size:20px;line-height:1}details[open] summary:after{content:"–"}
